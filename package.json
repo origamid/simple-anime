@@ -1,0 +1,26 @@
+{
+  "name": "simple-anime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/origamid/simple-anime.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/origamid/simple-anime/issues"
+  },
+  "homepage": "https://github.com/origamid/simple-anime#readme",
+  "devDependencies": {
+    "css-loader": "^3.0.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "mini-css-extract-plugin": "^0.7.0",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6"
+  }
+}
