@@ -32,27 +32,27 @@ inicial da animação na classe -->
 ```
 
 ```css
-/* 6 Adicione o CSS Essêncial abaixo */
+/* 6 Adicione o CSS Essencial abaixo */
 [data-anime] {
   opacity: 0;
 }
 .anime {
   opacity: 1;
   transform: none;
-  transition: transform .8s, opacity .8s;
+  transition: transform 0.8s, opacity 0.8s;
 }
 
 /* 7 CSS personalizado dependendo da animação desejada */
 .fadeInDown {
-  transform: translate3d(0,-20px,0);
+  transform: translate3d(0, -20px, 0);
 }
 .fadeInUp {
-  transform: translate3d(0,20px,0);
+  transform: translate3d(0, 20px, 0);
 }
 .fadeInRight {
-  transform: translate3d(20px,0,0);
+  transform: translate3d(20px, 0, 0);
 }
 .fadeInLeft {
-  transform: translate3d(-20px,0,0);
+  transform: translate3d(-20px, 0, 0);
 }
 ```
