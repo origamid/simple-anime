@@ -6,7 +6,7 @@ Plugin simples para animação de entrada no site.
 // 1 - Copie o arquivo simple-anime.js da pasta dist e cole no seu site.
 
 // 2 - Link o arquivo utilizando a tag script /js/plugins é apenas um exemplo, caso você tenha colocado o arquivo dentro da pasta de plugins
-<script src="./js/plugins/simple-anime.js"></script>
+<script src="./js/plugins/simple-anime.js"></script>;
 
 // 3 - Inicie a classe do slide:
 
@@ -32,17 +32,10 @@ inicial da animação na classe -->
 ```
 
 ```css
-/* 6 Adicione o CSS Essencial abaixo */
-[data-anime] {
-  opacity: 0;
-}
-.anime {
-  opacity: 1;
-  transform: none;
-  transition: transform 0.8s, opacity 0.8s;
-}
-
-/* 7 CSS personalizado dependendo da animação desejada */
+/*
+6 CSS personalizado dependendo da animação desejada
+Devem ser adicionadas na frente do código essencial do item 7.
+*/
 .fadeInDown {
   transform: translate3d(0, -20px, 0);
 }
@@ -54,5 +47,15 @@ inicial da animação na classe -->
 }
 .fadeInLeft {
   transform: translate3d(-20px, 0, 0);
+}
+
+/* 7 Adicione o CSS Essencial abaixo */
+[data-anime] {
+  opacity: 0;
+}
+.anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
 }
 ```
